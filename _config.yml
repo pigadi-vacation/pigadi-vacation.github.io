@@ -1,13 +1,18 @@
-lsi: false
-safe: true
-source: /
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
-remote_theme: pages-themes/slate@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+#domain: pigadi-vaction.github.io
+#url: https://pigadi-vacation.github.io 
+#markdown: GFM
+#title: Pigadi Vacation
+theme: jekyll-theme-slate
+#lsi: false
+#safe: true
+#source: /
+#incremental: false
+#highlighter: rouge
+#gist:
+#  noscript: false
+#kramdown:
+#  math_engine: mathjax
+#  syntax_highlighter: rouge
+#remote_theme: pages-themes/slate@v0.2.0
+#plugins:
+#- jekyll-remote-theme # add this line to the plugins list if you already have one
