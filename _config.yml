@@ -3,6 +3,7 @@ url: https://pigadi-vacation.github.io
 markdown: kramdown
 title: Experience the restful quality of Pigadi/Pteleos
 theme: jekyll-theme-slate
+imagesurl: "/assets/images/"
 #lsi: false
 #safe: true
 #source: /

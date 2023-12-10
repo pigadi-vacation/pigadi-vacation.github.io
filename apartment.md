@@ -65,3 +65,16 @@ Garden furniture on the terrace
 * No pets allowed
 * Smoking prohibited
 * No parties allowed
+
+
+
+{% assign filenames = "apartment_kitchen.png,apartment_small_bed_room.png,apartment_large_bed_room_2.png,apartment_couch.png" | split: "," %}
+<div class ="image-gallery">
+{% for name in filenames %}
+    <div class="box">
+    <a href="{{ site.imagesurl }}{{ name }}">
+      <img width="200" height="200" src="{{ site.imagesurl }}{{ name }} " alt="{{ name }}"  class="img-gallery" />
+     </a>
+    </div>
+ {% endfor %}
+</div>
