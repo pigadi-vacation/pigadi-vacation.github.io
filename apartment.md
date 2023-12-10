@@ -61,12 +61,14 @@ Garden furniture on the terrace
 * No parties allowed
 
 
-{% assign filenames = "apartment_couch.png, apartment_bath.png, apartment_kitchen.png, apartment_small_bed_room.png, apartment_large_bed_room_2.png, apartment_terrace.png" | split: ", " %}
+{% assign left = "apartment_couch.png, apartment_bath.png, apartment_kitchen.png" | split: ", " %}
+{% assign right = "apartment_small_bed_room.png, apartment_large_bed_room_2.png, apartment_terrace.png" | split: ", " %}
 <div class ="image-gallery">
-{% for name in filenames %}
+{% for i in (0..3) %}
     <div class="box">
     <a href="{{ site.imagesurl }}{{ name }}">
-      <img src="{{ site.imagesurl }}{{ name }} " alt="{{ name }}"  class="img-gallery" />
+      <img width=200 height=200 align="left" src="{{ site.imagesurl }}{{ left[i] }} " alt="{{ left[i] }}"  class="img-gallery" />
+      <img width=200 height=200 align="right" src="{{ site.imagesurl }}{{ right[i] }} " alt="{{ right[i] }}"  class="img-gallery" />
      </a>
     </div>
  {% endfor %}
