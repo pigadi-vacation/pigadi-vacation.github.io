@@ -1,7 +1,7 @@
-#domain: pigadi-vaction.github.io
-#url: https://pigadi-vacation.github.io 
+domain: pigadi-vaction.github.io
+url: https://pigadi-vacation.github.io 
 markdown: kramdown
-#title: Pigadi Vacation
+title: Pigadi Vacation
 theme: jekyll-theme-slate
 #lsi: false
 #safe: true
