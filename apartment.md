@@ -24,16 +24,15 @@ The apartment is suitable for a maximum of 4 adults and 2 children. <a href="{{ 
         * Pans and pots
         * Tableware
 
-### Outdoor
-Garden furniture on the terrace
 
-### Entertainment
+### Entertainment & Outdoor
 * WLAN included
 * TV
+* Garden furniture on the terrace
 
 ### Facilities
 * Towels
-* bed linen
+* Bed linen
 * Soap and toilet paper
 * Clothes hanger
 * Air conditioning
@@ -66,6 +65,9 @@ Garden furniture on the terrace
     <div class="box">
     <a href="{{ site.imagesurl }}{{ left[i] }}">
       <img width=200 height=200 src="{{ site.imagesurl }}{{ left[i] }}" alt="{{ left[i] }}"  class="img-gallery" />
+    </a>
+    <a href="{{ site.imagesurl }}{{ right[i] }}">
+      <img width=200 height=200 src="{{ site.imagesurl }}{{ right[i] }}" alt="{{ right[i] }}"  class="img-gallery" />
     </a>
     </div>
  {% endfor %}

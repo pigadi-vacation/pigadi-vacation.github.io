@@ -23,16 +23,14 @@ The studio is well-suited for 2 people and close to the beach. <a href="{{ site.
             * Tableware
 * 1 bath room
 
-### Outdoor
-Garden furniture on the large balcony
-
-### Entertainment
+### Entertainment & Outdoor
 * WLAN included
 * TV
+* Garden furniture on the balcony
 
 ### Facilities
 * Towels
-* bed linen
+* Bed linen
 * Soap and toilet paper
 * Clothes hanger
 * Air conditioning
