@@ -67,9 +67,6 @@ Garden furniture on the terrace
     <a href="{{ site.imagesurl }}{{ left[i] }}">
       <img width=200 height=200 src="{{ site.imagesurl }}{{ left[i] }}" alt="{{ left[i] }}"  class="img-gallery" />
     </a>
-    <a href="{{ site.imagesurl }}{{ right[i] }}">
-      <img width=200 height=200 src="{{ site.imagesurl }}{{ right[i] }}" alt="{{ right[i] }}"  class="img-gallery" />
-     </a>
     </div>
  {% endfor %}
 </div>
