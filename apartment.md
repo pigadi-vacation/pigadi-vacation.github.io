@@ -35,7 +35,7 @@ Garden furniture on the terrace
 * Towels
 * bed linen
 * Soap and toilet paper
-* Clothes hangar
+* Clothes hanger
 * Air conditioning
 * Heating
 
@@ -64,8 +64,10 @@ Garden furniture on the terrace
 <div class ="image-gallery">
 {% for i in (0..2) %}
     <div class="box">
-    <a href="{{ site.imagesurl }}{{ name }}">
+    <a href="{{ site.imagesurl }}{{ left[i] }}">
       <img width=200 height=200 src="{{ site.imagesurl }}{{ left[i] }}" alt="{{ left[i] }}"  class="img-gallery" />
+    </a>
+    <a href="{{ site.imagesurl }}{{ right[i] }}">
       <img width=200 height=200 src="{{ site.imagesurl }}{{ right[i] }}" alt="{{ right[i] }}"  class="img-gallery" />
      </a>
     </div>

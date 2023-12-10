@@ -60,10 +60,12 @@ Garden furniture on the large balcony
 <div class ="image-gallery">
 {% for i in (0..2) %}
     <div class="box">
-    <a href="{{ site.imagesurl }}{{ name }}">
+    <a href="{{ site.imagesurl }}{{ left[i] }}">
       <img width=200 height=200 src="{{ site.imagesurl }}{{ left[i] }}" alt="{{ left[i] }}"  class="img-gallery" />
+    </a>
+    <a href="{{ site.imagesurl }}{{ right[i] }}">
       <img width=200 height=200 src="{{ site.imagesurl }}{{ right[i] }}" alt="{{ right[i] }}"  class="img-gallery" />
-     </a>
+    </a>
     </div>
  {% endfor %}
 </div>
