@@ -18,6 +18,8 @@ Both the apartment and the studio are conveniently located:
 * 200 m to the free public beach
 
 The Nea Anchialos National Airport is about 30 km away. Thessaloniki airport is connected with an excellent maintained private E 75 and reached easily under a 3 hours’ drive.
-<img align="left" width="200" height="200" src="/assets/images/pigadi_boat.png">
+<a href="{{ site.imagesurl }}{{ /assets/images/pigadi_boat.png }}">
+    <img align="left" width="200" height="200" src="/assets/images/pigadi_boat.png">
+</a>
 
 Pigadi offers a safe stay, regardless for families with children, energetic people who wish to explore the country side by hiking, or history interested ones.

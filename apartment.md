@@ -11,7 +11,6 @@ The apartment is suitable for a maximum of 4 adults and 2 children.
 ## General Information
 
 ### Rooms
-<img align="right" width="200" height="200" src="/assets/images/apartment_kitchen.png">
 * 1 bed room with a doble bed and 1 bunk bed
 * 1 bed room with a double bed
 * 1 bathroom
@@ -26,20 +25,15 @@ The apartment is suitable for a maximum of 4 adults and 2 children.
         * Tableware
 
 
-<img align="left" width="200" height="200" src="/assets/images/apartment_small_bed_room.png">
-<img align="right" width="200" height="200" src="/assets/images/apartment_large_bed_room_2.png">
 
 ### Outdoor
 Garden furniture on the terrace
-<img align="right" width="200" height="200" src="/assets/images/apartment_terrace.png">
 
 ### Entertainment
 * WLAN included
 * TV
-<img align="right" width="200" height="200" src="/assets/images/apartment_couch.png">
 
 ### Facilities
-<img align="right" width="200" height="200" src="/assets/images/apartment_bath.png">
 * Towels
 * bed linen
 * Soap and toilet paper
@@ -67,13 +61,12 @@ Garden furniture on the terrace
 * No parties allowed
 
 
-
-{% assign filenames = "apartment_kitchen.png,apartment_small_bed_room.png,apartment_large_bed_room_2.png,apartment_couch.png" | split: "," %}
+{% assign filenames = "apartment_couch.png, apartment_bath.png, apartment_kitchen.png, apartment_small_bed_room.png, apartment_large_bed_room_2.png, apartment_terrace.png" | split: ", " %}
 <div class ="image-gallery">
 {% for name in filenames %}
     <div class="box">
     <a href="{{ site.imagesurl }}{{ name }}">
-      <img width="200" height="200" src="{{ site.imagesurl }}{{ name }} " alt="{{ name }}"  class="img-gallery" />
+      <img src="{{ site.imagesurl }}{{ name }} " alt="{{ name }}"  class="img-gallery" />
      </a>
     </div>
  {% endfor %}
