@@ -3,7 +3,7 @@ Experience the restful quality of Pigadi/Pteleos
 
 ![image title](/assets/images/pigadi_harbor.png){:class="img-responsive"}
 
-| [Apartment](https://pigadi-vacation.github.io/apartment.md) | [Studio](https://pigadi-vacation.github.io/studio.md) | [Contact](https://pigadi-vacation.github.io/contact.md) |
+| [Apartment](https://pigadi-vacation.github.io/apartment) | [Studio](https://pigadi-vacation.github.io/studio) | [Contact](https://pigadi-vacation.github.io/contact) |
 
 
 Pigadi is located in Magnesia, Thessaly, Greece. 
