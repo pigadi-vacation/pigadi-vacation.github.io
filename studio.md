@@ -6,10 +6,9 @@ permalink: /studio
 
 Studio
 ====
-The studio is well-suited for 2 people and close to the beach.
+The studio is well-suited for 2 people and close to the beach. <a href="{{ site.url }}" style="float: right;">Back</a>
 
 ### Rooms
-<img align="right" width="200" height="200" src="/assets/images/studio.png">
 * Studio containing
     * 1 double bed
     * Living room area with a couch and TV
@@ -23,19 +22,15 @@ The studio is well-suited for 2 people and close to the beach.
             * Pans and pots
             * Tableware
 * 1 bath room
-<img align="right" width="200" height="200" src="/assets/images/studio_kitchen.png">
 
 ### Outdoor
-<img align="right" width="200" height="200" src="/assets/images/studio_balcony.png">
 Garden furniture on the large balcony
 
 ### Entertainment
-<img align="right" width="200" height="200" src="/assets/images/studio_living.png">
 * WLAN included
 * TV
 
 ### Facilities
-<img align="right" width="200" height="200" src="/assets/images/studio_bath.png">
 * Towels
 * bed linen
 * Soap and toilet paper
@@ -58,3 +53,17 @@ Garden furniture on the large balcony
 * No pets allowed
 * Smoking prohibited
 * No parties allowed
+
+
+{% assign left = "studio.png, studio_living.png, studio_kitchen.png" | split: ", " %}
+{% assign right = "studio_balcony.png, studio_bath.png, studio_bed.png" | split: ", " %}
+<div class ="image-gallery">
+{% for i in (0..2) %}
+    <div class="box">
+    <a href="{{ site.imagesurl }}{{ name }}">
+      <img width=200 height=200 src="{{ site.imagesurl }}{{ left[i] }}" alt="{{ left[i] }}"  class="img-gallery" />
+      <img width=200 height=200 src="{{ site.imagesurl }}{{ right[i] }}" alt="{{ right[i] }}"  class="img-gallery" />
+     </a>
+    </div>
+ {% endfor %}
+</div>

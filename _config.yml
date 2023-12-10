@@ -1,8 +1,8 @@
-domain: pigadi-vaction.github.io
-url: https://pigadi-vacation.github.io 
-markdown: kramdown
 title: Experience the restful quality of Pigadi/Pteleos
 theme: jekyll-theme-slate
+markdown: kramdown
+domain: pigadi-vaction.github.io
+url: https://pigadi-vacation.github.io 
 imagesurl: "/assets/images/"
 #lsi: false
 #safe: true

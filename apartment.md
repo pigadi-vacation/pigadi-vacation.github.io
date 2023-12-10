@@ -6,7 +6,7 @@ permalink: /apartment
 Apartment
 ====
 
-The apartment is suitable for a maximum of 4 adults and 2 children.
+The apartment is suitable for a maximum of 4 adults and 2 children. <a href="{{ site.url }}" style="float: right;">Back</a>
 
 ## General Information
 
@@ -23,8 +23,6 @@ The apartment is suitable for a maximum of 4 adults and 2 children.
         * Cooking plates
         * Pans and pots
         * Tableware
-
-
 
 ### Outdoor
 Garden furniture on the terrace
@@ -64,11 +62,11 @@ Garden furniture on the terrace
 {% assign left = "apartment_couch.png, apartment_bath.png, apartment_kitchen.png" | split: ", " %}
 {% assign right = "apartment_small_bed_room.png, apartment_large_bed_room_2.png, apartment_terrace.png" | split: ", " %}
 <div class ="image-gallery">
-{% for i in (0..3) %}
+{% for i in (0..2) %}
     <div class="box">
     <a href="{{ site.imagesurl }}{{ name }}">
-      <img width=200 height=200 align="left" src="{{ site.imagesurl }}{{ left[i] }} " alt="{{ left[i] }}"  class="img-gallery" />
-      <img width=200 height=200 align="right" src="{{ site.imagesurl }}{{ right[i] }} " alt="{{ right[i] }}"  class="img-gallery" />
+      <img width=200 height=200 src="{{ site.imagesurl }}{{ left[i] }}" alt="{{ left[i] }}"  class="img-gallery" />
+      <img width=200 height=200 src="{{ site.imagesurl }}{{ right[i] }}" alt="{{ right[i] }}"  class="img-gallery" />
      </a>
     </div>
  {% endfor %}

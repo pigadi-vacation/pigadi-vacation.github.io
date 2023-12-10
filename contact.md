@@ -5,6 +5,7 @@ permalink: /contact
 
 Contact
 ====
+<a href="{{ site.url }}" style="float: right;">Back</a>
 
 <style>
   split::after {
